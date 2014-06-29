@@ -1,0 +1,11 @@
+<h1>All stories</h1>
+<ul>
+  <% @stories.each do |story| %>
+    <li>
+      <p>
+        <%= story.title %>
+        <%= story.author_name %>
+      </p>
+    </li>
+  <% end %>
+</ul>

@@ -1,0 +1,2 @@
+class StorsController < ApplicationController
+end

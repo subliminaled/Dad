@@ -18,6 +18,8 @@ ActiveRecord::Schema.define(version: 20140629024051) do
     t.string   "body"
     t.string   "author_name"
     t.string   "author_location"
+    t.string   "thumbnail_url"
+    t.string   "image_url"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

@@ -1,1 +1,19 @@
-<h1>Hi papa.</h1>
+<h1>Celebrating the life of Carlos Castañeda.</h1>
+
+<div id="cards">
+  <div id="card">
+    <ul>
+      <% @stories.each do |story| %>
+          <li>
+            <p>
+              <span id="title"><%= story.title %></span>
+              <span id="author_name"><%= story.author_name %></span>
+              <span id="author_location"><%= story.author_location %></span>
+              <span id="thumbUrl"><% story.thumbnail_url %></span>
+              <span id="body"><% story.body %></span>
+            </p>
+          </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
